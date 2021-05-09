@@ -34,7 +34,7 @@ $("#nav-placeholder").load("navbar.html");
     A keyboard is normally attached to a typewriter, computer or mobile device. Voice recognition programs allow those who can't see or use their hands to have their thoughts transcribed.
     </p>
 </div>
-<div class="team-head">
+<div id="contact" class="team-head">
     <h5 class="card-title">Team</h5>
     <hr>
     <div class="card team-card">
@@ -83,7 +83,6 @@ window.onload = function(){
         }
 }
 $(window).scroll(function(){
-    // $('#nav-bar').css("background-color","white",$(this).scrollTop()>$('#nav-bar').scrollHeight);
     $('.team-card').addClass("scrolled",$(this).scrollTop()>$('.team-card').scrollHeight);
 });
 </script>
